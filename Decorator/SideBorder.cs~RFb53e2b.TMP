@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Decorator
+{
+    public class SideBorder : Border
+    {
+        private readonly char _borderChar;
+        public SideBorder(Display display, char ch)
+        {
+            s        }
+
+        public override int GetColums()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override int GetRows()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override string GetRowText(int row)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
